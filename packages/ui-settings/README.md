@@ -1,4 +1,4 @@
-# @polkadot/ui-settings
+# @pezkuwi/ui-settings
 
 Manages app settings including endpoints, themes and prefixes
 
@@ -7,7 +7,7 @@ Manages app settings including endpoints, themes and prefixes
 User preferences are set as a settings object in the browser's local storage.
 
 ```js
-import settings from '@polkadot/ui-settings';
+import settings from '@pezkuwi/ui-settings';
 
 render () {
   // get api endpoint for the selected chain
@@ -36,5 +36,5 @@ render () {
 
 Apps that currently use the settings package
 
-* [polkadot-js/apps](https://www.github.com/polkadot-js/apps)
+* [pezkuwichain/apps](https://www.github.com/pezkuwichain/apps)
 * [paritytech/substrate-light-ui](https://github.com/paritytech/substrate-light-ui)

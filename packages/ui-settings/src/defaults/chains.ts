@@ -1,8 +1,8 @@
-// Copyright 2017-2025 @polkadot/ui-settings authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-settings authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { selectableNetworks } from '@polkadot/networks';
-import { objectSpread } from '@polkadot/util';
+import { selectableNetworks } from '@pezkuwi/networks';
+import { objectSpread } from '@pezkuwi/util';
 
 type ChainDef = string[];
 

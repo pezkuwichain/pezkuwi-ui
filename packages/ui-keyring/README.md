@@ -1,6 +1,6 @@
-# @polkadot/ui-keyring
+# @pezkuwi/ui-keyring
 
-A wrapper extending the base @polkadot/keyring interface for usage in the browser:
+A wrapper extending the base @pezkuwi/keyring interface for usage in the browser:
 Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations.
 
 ## Usage Examples
@@ -10,7 +10,7 @@ All module methods are exposed through a single default export.
 ### Regular
 
 ```js
-import keyring from @polkadot/ui-keyring
+import keyring from @pezkuwi/ui-keyring
 
 render () {
   // encode publicKey to ss58 address
@@ -36,8 +36,8 @@ render () {
 Option 1: Declarative subscribe/unsubscribe w/ react-with-observable (recommended 'React' way)
 
 ```js
-import accountObservable from '@polkadot/ui-keyring/observable/accounts';
-import { SingleAddress, SubjectInfo } from '@polkadot/ui-keyring/observable/types';
+import accountObservable from '@pezkuwi/ui-keyring/observable/accounts';
+import { SingleAddress, SubjectInfo } from '@pezkuwi/ui-keyring/observable/types';
 import React from 'react';
 import { Subscribe } from 'react-with-observable';
 import { map } from 'rxjs';
@@ -69,8 +69,8 @@ class MyReactComponent extends React.PureComponent {
 Option 2: Imperative subscribe/unsubscribe
 
 ```js
-import accountObservable from '@polkadot/ui-keyring/observable/accounts';
-import { SingleAddress, SubjectInfo } from '@polkadot/ui-keyring/observable/types';
+import accountObservable from '@pezkuwi/ui-keyring/observable/accounts';
+import { SingleAddress, SubjectInfo } from '@pezkuwi/ui-keyring/observable/types';
 import React from 'react';
 import { Subscription } from 'rxjs';
 
@@ -125,12 +125,12 @@ class MyReactComponent extends React.PureComponent<State> {
 - SS58 Encode / Decode?
   -  SS58 is a simple address format designed for Substrate based chains. You can read about its specification in more detail in the [Substrate Documentation](https://docs.substrate.io/reference/address-formats/).
 
-**If you have any unanswered/undocumented questions, please raise an issue [here](https://github.com/polkadot-js/ui/issues).**
+**If you have any unanswered/undocumented questions, please raise an issue [here](https://github.com/pezkuwichain/ui/issues).**
 
 
 ## Users
 
 Keyring is core to many polkadot/substrate apps.
 
-* [polkadot-js/apps](https://github.com/polkadot-js/apps)
+* [pezkuwichain/apps](https://github.com/pezkuwichain/apps)
 * [paritytech/substrate-light-ui](https://github.com/paritytech/substrate-light-ui)

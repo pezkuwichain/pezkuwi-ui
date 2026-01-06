@@ -1,9 +1,9 @@
-// Copyright 2017-2025 @polkadot/ui-shared authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Seeder } from './types.js';
 
-import { isU8a, stringToU8a } from '@polkadot/util';
+import { isU8a, stringToU8a } from '@pezkuwi/util';
 
 const DIVISOR = 256 * 256;
 

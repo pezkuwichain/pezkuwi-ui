@@ -4,129 +4,129 @@
 
 Changes:
 
-- Upgraded polkadot-js dependencies ([#855](https://github.com/polkadot-js/ui/pull/855))
+- Upgraded pezkuwichain dependencies ([#855](https://github.com/pezkuwichain/ui/pull/855))
 
 
 ## 3.16.5 Dec 10, 2025
 
 Changes:
 
-- Upgraded polkadot-js dependencies ([#855](https://github.com/polkadot-js/ui/pull/855))
+- Upgraded pezkuwichain dependencies ([#855](https://github.com/pezkuwichain/ui/pull/855))
 
 
 ## 3.16.4 Nov 25, 2025
 
 Changes:
 
-- Upgraded polkadot-js dependencies ([#853](https://github.com/polkadot-js/ui/pull/853))
+- Upgraded pezkuwichain dependencies ([#853](https://github.com/pezkuwichain/ui/pull/853))
 
 
 ## 3.16.3 Nov 12, 2025
 
 Changes:
 
-- Upgraded polkadot-js dependencies ([#850](https://github.com/polkadot-js/ui/pull/850))
+- Upgraded pezkuwichain dependencies ([#850](https://github.com/pezkuwichain/ui/pull/850))
 
 
 ## 3.16.2 Oct 22, 2025
 
 Changes:
 
-- Upgraded polkadot-js dependencies ([#848](https://github.com/polkadot-js/ui/pull/848))
+- Upgraded pezkuwichain dependencies ([#848](https://github.com/pezkuwichain/ui/pull/848))
 
 
 ## 3.16.1 Aug 27, 2025
 
 Changes:
 
-- 3.15.5 ([#846](https://github.com/polkadot-js/ui/pull/846))
-- Upgraded polkadot deps ([#845](https://github.com/polkadot-js/ui/pull/845))
+- 3.15.5 ([#846](https://github.com/pezkuwichain/ui/pull/846))
+- Upgraded polkadot deps ([#845](https://github.com/pezkuwichain/ui/pull/845))
 
 
 ## 3.15.4 Aug 13, 2025
 
 Changes:
 
-- Upgraded polkadot deps ([#843](https://github.com/polkadot-js/ui/pull/843))
+- Upgraded polkadot deps ([#843](https://github.com/pezkuwichain/ui/pull/843))
 
 
 ## 3.15.3 July 30, 2025
 
 Changes:
 
-- Update Beachball.tsx to remove duplication in strict mode ([#840](https://github.com/polkadot-js/ui/pull/840))
-- Bump polkadot deps ([#841](https://github.com/polkadot-js/ui/pull/841))
+- Update Beachball.tsx to remove duplication in strict mode ([#840](https://github.com/pezkuwichain/ui/pull/840))
+- Bump polkadot deps ([#841](https://github.com/pezkuwichain/ui/pull/841))
 
 
 ## 3.15.2 July 2, 2025
 
 Changes:
 
-- Upgraded polkadot deps ([#838](https://github.com/polkadot-js/ui/pull/838))
+- Upgraded polkadot deps ([#838](https://github.com/pezkuwichain/ui/pull/838))
 
 
 ## 3.15.1 Jun 18, 2025
 
 Changes:
 
-- Upgraded polkadot deps ([#831](https://github.com/polkadot-js/ui/pull/831))
+- Upgraded polkadot deps ([#831](https://github.com/pezkuwichain/ui/pull/831))
 
 
 ## 3.14.1 May 23, 2025
 
 Changes:
 
-- Add the type field to external keypair accounts ([#833](https://github.com/polkadot-js/ui/pull/833))
-- Upgrade polkadot-js/common to 13.5.1 ([#834](https://github.com/polkadot-js/ui/pull/834))
+- Add the type field to external keypair accounts ([#833](https://github.com/pezkuwichain/ui/pull/833))
+- Upgrade pezkuwichain/common to 13.5.1 ([#834](https://github.com/pezkuwichain/ui/pull/834))
 
 
 ## 3.13.1 Apr 16, 2025
 
 Changes:
 
-- Add key validation for FileStore ([#830](https://github.com/polkadot-js/ui/pull/830))
-- Upgraded polkadot deps ([#831](https://github.com/polkadot-js/ui/pull/831))
+- Add key validation for FileStore ([#830](https://github.com/pezkuwichain/ui/pull/830))
+- Upgraded polkadot deps ([#831](https://github.com/pezkuwichain/ui/pull/831))
 
 
 ## 3.12.2 Feb 18, 2025
 
 Changes:
 
-- Bump dev to v0.83.2 ([#827](https://github.com/polkadot-js/ui/pull/827))
-- Bump common to v13.4.3 ([#828](https://github.com/polkadot-js/ui/pull/828))
+- Bump dev to v0.83.2 ([#827](https://github.com/pezkuwichain/ui/pull/827))
+- Bump common to v13.4.3 ([#828](https://github.com/pezkuwichain/ui/pull/828))
 
 
 ## 3.12.1 Jan 8, 2025
 
 Changes:
 
-- Upgrade common to 13.3.1 ([#824](https://github.com/polkadot-js/ui/pull/824))
-- Bump dev w/ ts ([#823](https://github.com/polkadot-js/ui/pull/823))
-- Update headers to 2025 ([#822](https://github.com/polkadot-js/ui/pull/822))
+- Upgrade common to 13.3.1 ([#824](https://github.com/pezkuwichain/ui/pull/824))
+- Bump dev w/ ts ([#823](https://github.com/pezkuwichain/ui/pull/823))
+- Update headers to 2025 ([#822](https://github.com/pezkuwichain/ui/pull/822))
 
 
 ## 3.11.3 Nov 12, 2024
 
 Changes:
 
-- Upgrade polkadot/common to 13.2.3 ([817](https://github.com/polkadot-js/ui/pull/#))
-- Bump dev to 0.82.1 w/ tslib ([#816](https://github.com/polkadot-js/ui/pull/816))
+- Upgrade polkadot/common to 13.2.3 ([817](https://github.com/pezkuwichain/ui/pull/#))
+- Bump dev to 0.82.1 w/ tslib ([#816](https://github.com/pezkuwichain/ui/pull/816))
 
 
 ## 3.11.2 Oct 30, 2024
 
 Changes:
 
-- Upgrade polkadot/common to 13.2.2 ([#814](https://github.com/polkadot-js/ui/pull/814))
+- Upgrade polkadot/common to 13.2.2 ([#814](https://github.com/pezkuwichain/ui/pull/814))
 
 
 ## 3.11.1 Oct 23, 2024
 
 Changes:
 
-- Upgrade polkadot/common to 13.2.1 ([#811](https://github.com/polkadot-js/ui/pull/811))
-- Bump yarn to 4.5.1 ([#812](https://github.com/polkadot-js/ui/pull/812))
-- Bump dev 0.81.2 ([#810](https://github.com/polkadot-js/ui/pull/810))
+- Upgrade polkadot/common to 13.2.1 ([#811](https://github.com/pezkuwichain/ui/pull/811))
+- Bump yarn to 4.5.1 ([#812](https://github.com/pezkuwichain/ui/pull/812))
+- Bump dev 0.81.2 ([#810](https://github.com/pezkuwichain/ui/pull/810))
   - Correctly exports CJS and ESM
 
 
@@ -134,16 +134,16 @@ Changes:
 
 Changes:
 
-- Upgrade polkadot/common to 13.1.1 ([#808](https://github.com/polkadot-js/ui/pull/808))
-- Bump yarn to 4.4.0 ([#806](https://github.com/polkadot-js/ui/pull/806))
+- Upgrade polkadot/common to 13.1.1 ([#808](https://github.com/pezkuwichain/ui/pull/808))
+- Bump yarn to 4.4.0 ([#806](https://github.com/pezkuwichain/ui/pull/806))
 
 
 ## 3.9.1 Aug 13, 2024
 
 Changes:
 
-- Upgrade @polkadot/dev to 0.79.3 ([#803](https://github.com/polkadot-js/ui/pull/803))
-- Add chainSpecific option for ledger ([#804](https://github.com/polkadot-js/ui/pull/804))
+- Upgrade @pezkuwi/dev to 0.79.3 ([#803](https://github.com/pezkuwichain/ui/pull/803))
+- Add chainSpecific option for ledger ([#804](https://github.com/pezkuwichain/ui/pull/804))
 
 
 ## 3.8.3 July 31, 2024
@@ -191,7 +191,7 @@ Changes:
 
 Changes
 
-- Bump to `@polkadot/util` 12.6.2
+- Bump to `@pezkuwi/util` 12.6.2
 - Bump to `react-native-svg` 14.1.0
 - Adjust `Vue` peerDependency, >= 2.7 for defineComponent
 
@@ -200,21 +200,21 @@ Changes
 
 Changes:
 
-- Bump to `@polkadot/util` 12.6.1
+- Bump to `@pezkuwi/util` 12.6.1
 
 
 ## 3.6.3 Sep 15, 2023
 
 Changes:
 
-- Bump to `@polkadot/util` 12.5.1
+- Bump to `@pezkuwi/util` 12.5.1
 
 
 ## 3.6.2 Aug 23, 2023
 
 Changes:
 
-- Bump to `@polkadot/util` 12.4.2
+- Bump to `@pezkuwi/util` 12.4.2
 
 
 ## 3.6.1 Aug 21, 2023
@@ -222,7 +222,7 @@ Changes:
 Changes:
 
 - Update to latest React `styled-components`
-- Bump to `@polkadot/util` 12.4.1
+- Bump to `@pezkuwi/util` 12.4.1
 
 
 ## 3.5.1 Jun 11, 2023
@@ -230,12 +230,12 @@ Changes:
 Changes:
 
 - Adjust object index access for stricter tsconfig settings
-- Bump to `@polkadot/util` 12.3.1
+- Bump to `@pezkuwi/util` 12.3.1
 
 
 ## 3.4.2 Jun 5, 2023
 
-- Bump to `@polkadot/util` 12.2.2
+- Bump to `@pezkuwi/util` 12.2.2
 
 
 ## 3.4.1 May 13, 2023
@@ -243,7 +243,7 @@ Changes:
 Changes:
 
 - Add `module` to `package.json` export map (ESM-only)
-- Bump to `@polkadot/util` 12.2.1
+- Bump to `@pezkuwi/util` 12.2.1
 
 
 ## 3.3.1 May 7, 2023
@@ -254,7 +254,7 @@ Contributed:
 
 Changes:
 
-- Bump to `@polkadot/util` 12.1.2
+- Bump to `@pezkuwi/util` 12.1.2
 
 
 ## 3.2.2 Apr 29, 2023
@@ -263,28 +263,28 @@ Changes:
 
 - Add missing `react-is` peer dependency for `styled-components`
 - Adjust compilation output for `__internal__` class fields
-- Bump to `@polkadot/util` 12.1.1
+- Bump to `@pezkuwi/util` 12.1.1
 
 
 ## 3.2.1 Apr 22, 2023
 
 Changes:
 
-- Bump to `@polkadot/util` 12.0.1
+- Bump to `@pezkuwi/util` 12.0.1
 
 
 ## 3.1.4 Apr 1, 2023
 
 Changes:
 
-- Bump to `@polkadot/util` 11.1.3
+- Bump to `@pezkuwi/util` 11.1.3
 
 
 ## 3.1.3 Mar 25, 2023
 
 Changes:
 
-- Align `eventemitter` version with `@polkadot/api`
+- Align `eventemitter` version with `@pezkuwi/api`
 
 
 ## 3.1.2 Mar 25, 2023
@@ -292,7 +292,7 @@ Changes:
 Changes:
 
 - Cater for Ethereum-compatible multisig addresses
-- Bump to `@polkadot/util` 11.1.2
+- Bump to `@pezkuwi/util` 11.1.2
 
 
 ## 3.1.1 Mar 19, 2023
@@ -301,7 +301,7 @@ Changes:
 
 - Swap `vue-identitycon` to use `defineComponent` (requires vue 2.7+)
 - Swap `BeachballIcon` to use `colord` library (ESM + CJS, smaller)
-- Bump to `@polkadot/util` 11.1.1
+- Bump to `@pezkuwi/util` 11.1.1
 
 
 ## 3.0.2 Mar 11, 2023
@@ -309,17 +309,17 @@ Changes:
 Changes:
 
 - Use consistent `.js` imports in source files (TS moduleResolution)
-- Bump to `@polkadot/util` 11.0.2
+- Bump to `@pezkuwi/util` 11.0.2
 
 
 ## 3.0.1 Mar 5, 2023
 
 Changes:
 
-- Remove `@polkadot/ui-assets` package
+- Remove `@pezkuwi/ui-assets` package
 - Swap TS -> JS compiler to use tsc (from babel)
 - Adjust all tests to use `node:test` runner (ESM variants)
-- Bump to `@polkadot/util` 11.0.1
+- Bump to `@pezkuwi/util` 11.0.1
 
 
 ## 2.12.1 Feb 20, 2023
@@ -333,14 +333,14 @@ Changes:
 
 Changes:
 
-- Bump to `@polkadot/util` 10.4.2
+- Bump to `@pezkuwi/util` 10.4.2
 
 
 ## 2.11.2 Feb 15, 2023
 
 Changes:
 
-- Bump to `@polkadot/util` 10.4.1
+- Bump to `@pezkuwi/util` 10.4.1
 
 
 ## 2.11.1 Jan 28, 2023
@@ -349,7 +349,7 @@ Changes:
 
 - Adjust usage of `styled-component` wrappers
 - Add setting for auto extension metadata upgrades
-- Bump to `@polkadot/util` 10.3.1
+- Bump to `@pezkuwi/util` 10.3.1
 
 
 ## 2.10.1 Jan 15, 2023
@@ -357,99 +357,99 @@ Changes:
 Changes:
 
 - Add setting to allow/disallow in-browser account storage
-- Bump to `@polkadot/util` 10.2.3
+- Bump to `@pezkuwi/util` 10.2.3
 
 
 ## 2.9.15 Jan 8, 2023
 
 Changes:
 
-- Bump to `@polkadot/util` 10.2.3
+- Bump to `@pezkuwi/util` 10.2.3
 
 
 ## 2.9.14 Dec 5, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.2.1
+- Bump to `@pezkuwi/util` 10.2.1
 
 
 ## 2.9.13 Nov 14, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.12
+- Bump to `@pezkuwi/util` 10.1.12
 
 
 ## 2.9.12 Oct 18, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.11
+- Bump to `@pezkuwi/util` 10.1.11
 
 
 ## 2.9.11 Oct 7, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.10
+- Bump to `@pezkuwi/util` 10.1.10
 
 
 ## 2.9.10 Sep 24, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.9
+- Bump to `@pezkuwi/util` 10.1.9
 
 
 ## 2.9.9 Sep 17, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.8
+- Bump to `@pezkuwi/util` 10.1.8
 
 
 ## 2.9.8 Sep 2, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.7
+- Bump to `@pezkuwi/util` 10.1.7
 
 
 ## 2.9.7 Aug 24, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.6
+- Bump to `@pezkuwi/util` 10.1.6
 
 
 ## 2.9.6 Aug 21, 2022
 
 Changes:
 
-- Use webpack packages from `@polkadot/dev`
-- Bump to `@polkadot/util` 10.1.5
+- Use webpack packages from `@pezkuwi/dev`
+- Bump to `@pezkuwi/util` 10.1.5
 
 
 ## 2.9.5 Aug 13, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.4
+- Bump to `@pezkuwi/util` 10.1.4
 
 
 ## 2.9.4 Aug 6, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.3
+- Bump to `@pezkuwi/util` 10.1.3
 
 
 ## 2.9.3 Jul 30, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.2
+- Bump to `@pezkuwi/util` 10.1.2
 
 
 ## 2.9.2 Jul 24, 2022
@@ -463,28 +463,28 @@ Contributed:
 
 Changes:
 
-- Bump to `@polkadot/util` 10.1.1
+- Bump to `@pezkuwi/util` 10.1.1
 
 
 ## 2.8.2 Jul 10, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.0.2
+- Bump to `@pezkuwi/util` 10.0.2
 
 
 ## 2.8.1 Jul 9, 2022
 
 Changes:
 
-- Bump to `@polkadot/util` 10.0.1
+- Bump to `@pezkuwi/util` 10.0.1
 
 
 ## 2.7.2 Jul 4, 2022
 
 Changes:
 
-- Bump to `@polkadot/util-crypto` 9.7.2 (w/ `@polkadot/wasm-crypto` 6.2.2)
+- Bump to `@pezkuwi/util-crypto` 9.7.2 (w/ `@pezkuwi/wasm-crypto` 6.2.2)
 
 
 ## 2.7.1 Jul 1, 2022
@@ -495,21 +495,21 @@ Contributed:
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.7.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.7.1
 
 
 ## 2.6.2 Jun 25, 2022
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.6.2
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.6.2
 
 
 ## 2.6.1 Jun 23, 2022
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.6.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.6.1
 - Upgrade libs to latest stable versions
 
 
@@ -517,7 +517,7 @@ Changes:
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.5.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.5.1
 - Upgrade libs to latest stable versions
 
 
@@ -525,29 +525,29 @@ Changes:
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.4.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.4.1
 
 
 ## 2.3.1 May 30, 2022
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.3.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.3.1
 
 
 ## 2.2.1 May 14, 2022
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.2.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.2.1
 
 
 ## 2.1.1 Apr 30, 2022
 
 Changes:
 
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.1.1
-- Adjust Jest test init for latest `@polkadot/dev`
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.1.1
+- Adjust Jest test init for latest `@pezkuwi/dev`
 
 
 ## 2.0.1 Apr 9, 2022
@@ -558,21 +558,21 @@ Changes:
 
 - Adjust Polkadot icon generation with lazy init
 - Output commonjs files under the `cjs/**` root
-- Upgrade to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 9.0.1
+- Upgrade to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 9.0.1
 
 
 ## 1.4.1 Mar 27, 2022
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.7.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.7.1
 
 
 ## 1.3.1 Mar 19, 2022
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.6.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.6.1
 - Additional workaround for Vite bundling
 
 
@@ -581,7 +581,7 @@ Changes:
 Changes:
 
 - Adjust for bundlers where `import.meta.url` is undefined
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.5.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.5.1
 
 
 ## 1.1.1 Feb 14, 2022
@@ -591,12 +591,12 @@ Changes:
 - Adjust ordering in state & timeouts for QR display
 - Add `timerDelay` property to QR display to control frame timeouts
 - Adjust webpack example config (cleanups, remove unneeded plugins)
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.4.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.4.1
 
 
 ## 1.0.1 Jan 29, 2022
 
-**Breaking change** The `Ledger` export from `@polkadot/ui-keyring` has been removed. For users of this class, import it directly from `@polkadot/hw-ledger`
+**Breaking change** The `Ledger` export from `@pezkuwi/ui-keyring` has been removed. For users of this class, import it directly from `@pezkuwi/hw-ledger`
 
 **Important** This is the first release in the long-outstanding `1.x` range. Apart from the notable breaking changes, it has no functional differences to the previous versions.
 
@@ -609,21 +609,21 @@ Changes:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.3.3
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.3.3
 
 
 ## 0.89.2 Jan 15, 2022
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.3.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.3.2
 
 
 ## 0.89.1 Jan 9, 2022
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.3.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.3.1
 
 
 ## 0.88.1 Jan 2, 2022
@@ -643,29 +643,29 @@ Changes:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.2.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.2.2
 
 
 ## 0.87.5 Dec 5, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.1.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.1.2
 
 
 ## 0.87.4 Dec 5, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.1.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.1.1
 
 
 ## 0.87.3 Dec 1, 2021
 
 Changes:
 
-- Use `hasProcess` check from `@polkadot/util`
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.0.5
+- Use `hasProcess` check from `@pezkuwi/util`
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.0.5
 
 
 ## 0.87.2 Nov 30, 2021
@@ -676,42 +676,42 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.0.4
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.0.4
 
 
 ## 0.87.1 Nov 28, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 8.0.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 8.0.2
 
 
 ## 0.86.7 Nov 22, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.9.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.9.2
 
 
 ## 0.86.6 Nov 21, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.9.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.9.1
 
 
 ## 0.86.5 Nov 6, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.8.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.8.2
 
 
 ## 0.86.4 Nov 6, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.8.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.8.1
 
 
 ## 0.86.3 Nov 1, 2021
@@ -719,14 +719,14 @@ Changes:
 Changes:
 
 - Add publish skip to all examples
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.7.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.7.1
 
 
 ## 0.86.2 Oct 24, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.6.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.6.1
 
 
 ## 0.86.1 Oct 16, 2021
@@ -737,7 +737,7 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.5.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.5.1
 
 
 ## 0.85.5 Oct 10, 2021
@@ -751,7 +751,7 @@ Changes:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.4.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.4.1
 
 
 ## 0.85.3 Aug 29, 2021
@@ -765,7 +765,7 @@ Changes:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.3.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.3.1
 
 
 ## 0.85.1 Aug 15, 2021
@@ -776,21 +776,21 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.2.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.2.1
 
 
 ## 0.84.3 Aug 2, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.1.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.1.1
 
 
 ## 0.84.2 Jul 26, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.0.3
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.0.3
 
 
 ## 0.84.1 Jul 11, 2021
@@ -799,7 +799,7 @@ Changes:
 
 - Internal RxJs usage has been bumped to the 7.2 version
 - Allow building as a completely stand-alone browser bundle (experimental)
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 7.0.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 7.0.1
 
 
 ## 0.83.1 Jul 5, 2021
@@ -810,7 +810,7 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.11.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.11.1
 
 
 ## 0.82.1 Jun 26, 2021
@@ -823,7 +823,7 @@ Contributed:
 Changes:
 
 - Fix `keyring.setSS58Format` to correctly set for prefix 0
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.10.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.10.1
 
 
 ## 0.81.1 Jun 20, 2021
@@ -835,7 +835,7 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.9.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.9.1
 - Fix webpack demo import locations
 
 
@@ -843,7 +843,7 @@ Changes:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.8.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.8.1
 
 
 ## 0.79.1 Jun 6, 2021
@@ -851,21 +851,21 @@ Changes:
 Changes:
 
 - Add support for WebHID selection (as exposed by ledger packages)
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.7.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.7.1
 
 
 ## 0.78.1 May 29, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.6.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.6.1
 
 
 ## 0.77.1 May 25, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.5.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.5.1
 
 
 ## 0.76.1 May 16, 2021
@@ -876,28 +876,28 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.4.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.4.1
 
 
 ## 0.75.1 Apr 25, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.3.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.3.1
 
 
 ## 0.74.1 Apr 18, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.2.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.2.1
 
 
 ## 0.73.1 Apr 12, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.1.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.1.1
 
 
 ## 0.72.1 Mar 15, 2021
@@ -911,14 +911,14 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.0.5
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.0.5
 
 
 ## 0.71.2 Mar 6, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.0.4
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.0.4
 
 
 ## 0.71.1 Mar 6, 2021
@@ -926,7 +926,7 @@ Changes:
 Changes:
 
 - Build to ESM by default (with cjs versions via export map)
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 6.0.3
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 6.0.3
 
 
 ## 0.70.1 Feb 28, 2021
@@ -935,22 +935,22 @@ Changes:
 
 - Use `detectPackage` with `packageInfo` & check for monorepo dependencies
 - Remove `mkdirp` resolution to ensure local views work with Webpack
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 5.9.2
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 5.9.2
 
 
 ## 0.69.1 Feb 7, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 5.6.1
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 5.6.1
 
 
 ## 0.68.1 Feb 1, 2021
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 5.5.1
-- Added `ed25519-ledger` option for `hdLedger` from `@polkadot/util-crypto`
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 5.5.1
+- Added `ed25519-ledger` option for `hdLedger` from `@pezkuwi/util-crypto`
 
 
 ## 0.67.1 Jan 24, 2021
@@ -961,13 +961,13 @@ Contributed:
 
 Changes:
 
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 5.4.4
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 5.4.4
 - Cleanup dependencies to only have common (no api repo)
 
 
 ## 0.66.1 Jan 17, 2021
 
-- **Important** Users of the `@polkadot/ledger` package should now import `@polkadot/hw-wallet`
+- **Important** Users of the `@pezkuwi/ledger` package should now import `@pezkuwi/hw-wallet`
 
 Contributed:
 
@@ -976,18 +976,18 @@ Contributed:
 
 Changes:
 
-- Remove `@polkadot/ledger` package (Moved to common as `@polkadot/hw-ledger`)
+- Remove `@pezkuwi/ledger` package (Moved to common as `@pezkuwi/hw-ledger`)
 - Keyring options genesis allows a `string` | `Hash` (e.g. `api.genesisHash`) input
-- Updated to `@polkadot/{hw-ledger, keyring, util, util-crypto}` 5.3.1
-- Removed `@polkadot/types` dependencies (only interface needed, supplied)
+- Updated to `@pezkuwi/{hw-ledger, keyring, util, util-crypto}` 5.3.1
+- Removed `@pezkuwi/types` dependencies (only interface needed, supplied)
 
 
 ## 0.65.1 Dec 28, 2020
 
 Changes:
 
-- Updated to `@polkadot/{keyring, util, util-crypto}` 5.2.2
-- Updated to `@polkadot/api` 3.2.2
+- Updated to `@pezkuwi/{keyring, util, util-crypto}` 5.2.2
+- Updated to `@pezkuwi/api` 3.2.2
 
 
 ## 0.64.1 Dec 21, 2020
@@ -996,8 +996,8 @@ Changes:
 
 - Don't re-export types from index (esm build compat)
 - Correctly mark `detectPackage` as a side-effect
-- Updated to `@polkadot/{keyring, util, util-crypto}` 5.1.1
-- Updated to `@polkadot/api` 3.1.1
+- Updated to `@pezkuwi/{keyring, util, util-crypto}` 5.1.1
+- Updated to `@pezkuwi/api` 3.1.1
 
 
 ## 0.63.1 Dec 14, 2020
@@ -1015,8 +1015,8 @@ Changes:
 - Pass pair type through to all creation actions
 - Allow for transparent failures on account injection
 - Swap to using `import type { ... }`
-- Updated to `@polkadot/{keyring, util, util-crypto}` 5.0.1
-- Updated to `@polkadot/api` 3.0.1
+- Updated to `@pezkuwi/{keyring, util, util-crypto}` 5.0.1
+- Updated to `@pezkuwi/api` 3.0.1
 
 
 ## 0.62.1 Nov 9, 2020
@@ -1025,8 +1025,8 @@ Changes:
 
 - Update address checks to allow for Ethereum-compatible chains
 - Add Ethereum icon type (uses blockies underneath)
-- Updated to `@polkadot/{keyring, util, util-crypto}` 4.0.1
-- Updated to `@polkadot/api` 2.6.1
+- Updated to `@pezkuwi/{keyring, util, util-crypto}` 4.0.1
+- Updated to `@pezkuwi/api` 2.6.1
 
 
 ## 0.61.1 Oct 19, 2020
@@ -1034,13 +1034,13 @@ Changes:
 Contributed:
 
 - Add Darwinia ss58 (Thanks to https://github.com/WoeOm)
-- Swap network identifiers to `@polkadot/networks` (Thanks to https://github.com/Tbaut)
+- Swap network identifiers to `@pezkuwi/networks` (Thanks to https://github.com/Tbaut)
 
 Changes:
 
 - Explicit deps versions (with peerDependencies as provided)
-- Bump to `@polkadot/api` 2.3.1
-- Bump to `@polkadot/util` 3.6.1
+- Bump to `@pezkuwi/api` 2.3.1
+- Bump to `@pezkuwi/util` 3.6.1
 
 
 ## 0.60.1 Oct 7, 2020
@@ -1049,7 +1049,7 @@ Changes:
 
 - Allow for custom IdentityIcon overrides
 - Move docs to docs repo
-- Bump to `@polkadot/api` 2.1.1
+- Bump to `@pezkuwi/api` 2.1.1
 
 
 ## 0.59.1 Sep 28, 2020
@@ -1058,8 +1058,8 @@ Changes:
 
 - Expose createFromJson on keyring to compliment createFromUri
 - Support Account/address indexes for Ledger
-- Bump to `@polkadot/api` 2.0.1
-- Bump to `@polkadot/util` 3.5.1
+- Bump to `@pezkuwi/api` 2.0.1
+- Bump to `@pezkuwi/util` 3.5.1
 
 
 ## 0.58.1 Aug 31, 2020
@@ -1080,8 +1080,8 @@ Changes:
 
 - Support for JSON v3 kdf-enabled format
 - Adjust password validity checks (alongside v3)
-- Bump to `@polkadot/api` 1.26.1
-- Bump to `@polkadot/util` 3.0.1
+- Bump to `@pezkuwi/api` 1.26.1
+- Bump to `@pezkuwi/util` 3.0.1
 
 
 ## 0.56.1 Jul 20, 2020
@@ -1094,8 +1094,8 @@ Changes:
 
 - Remove CC1 naming for Polkadot (as applicable)
 - Flatten React IdentityIcon (no extra wrapping)
-- Bump to `@polkadot/api` 1.25.1
-- Bump to `@polkadot/util` 2.18.1
+- Bump to `@pezkuwi/api` 1.25.1
+- Bump to `@pezkuwi/util` 2.18.1
 
 
 ## 0.55.1 Jul 2, 2020
@@ -1108,8 +1108,8 @@ Changes:
 
 - Adjust react-qr `Scan*` making `onScan` callbacks required
 - Rework the react-qr display to use functional components
-- Bump to `@polkadot/api` 1.21.1
-- Bump to `@polkadot/util` 2.15.1
+- Bump to `@pezkuwi/api` 1.21.1
+- Bump to `@pezkuwi/util` 2.15.1
 
 
 ## 0.54.1 Jun 16, 2020
@@ -1123,8 +1123,8 @@ Changes:
 
 - Adjust ordering of available crypto types (native first)
 - Rename Substrate prefix entry (42) to "generic"
-- Bump to `@polkadot/api` 1.19.1
-- Bump to `@polkadot/util` 2.14.1
+- Bump to `@pezkuwi/api` 1.19.1
+- Bump to `@pezkuwi/util` 2.14.1
 
 
 ## 0.53.1 May 14, 2020
@@ -1137,8 +1137,8 @@ Contributed:
 Changes:
 
 - Add `addMultisig` into keyring (with all options to re-create address)
-- Bump to `@polkadot/api` 1.14.1
-- Bump to `@polkadot/util` 2.10.1
+- Bump to `@pezkuwi/api` 1.14.1
+- Bump to `@pezkuwi/util` 2.10.1
 
 
 ## 0.52.1 Apr 15, 2020
@@ -1153,7 +1153,7 @@ Contributed:
 Changes:
 
 - Start of `isAlternative` implementations for identicons to react, react-native & vue (currently only Polkadot sixPoint)
-- Bump to `@polkadot/api` 1.10 & `@polkadot/util` 2.8
+- Bump to `@pezkuwi/api` 1.10 & `@pezkuwi/util` 2.8
 - Convert `private <field>` to `#<field>`
 - Remove internal/duplicated ui-keyring ss58Format mapping, rather set it directly on wrapped keyring
 
@@ -1163,8 +1163,8 @@ Changes:
 Changes:
 
 - Support formatting of addresses via createPair base on latest upstream keyring
-- Bump to `@polkadot/api` 1.3.1
-- Bump to `@polkadot/util` 2.4.1
+- Bump to `@pezkuwi/api` 1.3.1
+- Bump to `@pezkuwi/util` 2.4.1
 
 
 ## 0.50.1 Feb 16, 2020
@@ -1172,8 +1172,8 @@ Changes:
 Changes:
 
 - ui-settings does not expose pre-configured endpoints by default (only local dev node)
-- Bump to `@polkadot/api` 1.2.1
-- Bump to `@polkadot/util` 2.3.1
+- Bump to `@pezkuwi/api` 1.2.1
+- Bump to `@pezkuwi/util` 2.3.1
 
 
 ## 0.49.1 Feb 06, 2020
@@ -1231,7 +1231,7 @@ Changes:
 
 Changes:
 
-- Update `@polkadot/util` to 1.4.1
+- Update `@pezkuwi/util` to 1.4.1
 - Upddate to Babel 7.6
 
 
@@ -1243,36 +1243,36 @@ Changes:
 - Add extended info to ui-settings, i.e. info on each option
 - Adjust logos in ui-assets (incl. updated Substrate logo)
 - ui-keyring now check the genesisHash on  all load operations (if supplied)
-- react-qr is now operational and integrated in the polkadot-js/extension and apps repos
+- react-qr is now operational and integrated in the pezkuwichain/extension and apps repos
 
 
 ## 0.42.1 Aug 24, 2019
 
-- **Breaking Change** The `@polkadot/ui-identicon` package has been renamed to `@polkadot/react-identicon`
-- **Breaking change** For `@polkadot/ui-keyring` the stores are now not exported from the index, imports should be changed to either `ui-keyring/stores` or explicitly to `ui-keyring/stores/Extension`
+- **Breaking Change** The `@pezkuwi/ui-identicon` package has been renamed to `@pezkuwi/react-identicon`
+- **Breaking change** For `@pezkuwi/ui-keyring` the stores are now not exported from the index, imports should be changed to either `ui-keyring/stores` or explicitly to `ui-keyring/stores/Extension`
 
 Changes:
 
 - Support for Kusama with endpoints and settings
-- The `@polkadot/reactnative-identicon` package has been added (only Polkadot support atm)
-- The `@polkadot/react-qr` package has been added to display/scan QR codes
-- `@polkadot/ui-settings` has UNfrastructure added as an RPC provider for Alex
-- `@polkadot/ui-settings` exposes a dropdown with address prefix options
+- The `@pezkuwi/reactnative-identicon` package has been added (only Polkadot support atm)
+- The `@pezkuwi/react-qr` package has been added to display/scan QR codes
+- `@pezkuwi/ui-settings` has UNfrastructure added as an RPC provider for Alex
+- `@pezkuwi/ui-settings` exposes a dropdown with address prefix options
 
 
 ## 0.41.1 Jun 14, 2019
 
 Changes:
 
-- Adapt interface to cater for new `@polkadot/keyring`, where pairs -
+- Adapt interface to cater for new `@pezkuwi/keyring`, where pairs -
   - expose `address` getter instead of `address()`
   - expose `publicKey` getter instead of `publicKey()`
   - expose `meta` getter instead of `getMeta()`
-- The functions `getAccount` `getAddress` `getContract` in `@polkadot/ui-keyring` now return either undefined or an object with the above properties.
+- The functions `getAccount` `getAddress` `getContract` in `@pezkuwi/ui-keyring` now return either undefined or an object with the above properties.
 - Add support for the saving of contracts to the keyring
 - Use the injection of stores, providing an additional `ExtensionStore` for saving to Chrome/FF extensions (in addition to the standard localStorage saving)
 - Remove previously deprecated kering functions, `createAccount`, `createAccountExternal` & `createAccountMnemonic`
-- Remove (previously deprecated), `@polkadot/ui-util`, all these functions have been incorporated in `@polkadot/util`
+- Remove (previously deprecated), `@pezkuwi/ui-util`, all these functions have been incorporated in `@pezkuwi/util`
 
 
 ## 0.40.1 Jun 04, 2019
@@ -1287,7 +1287,7 @@ Changes:
 Changes:
 
 - Allow for externally injected accounts
-- @polkadot/util 0.91.1 & @polkadot/api 0.79.1
+- @pezkuwi/util 0.91.1 & @pezkuwi/api 0.79.1
 
 
 ## 0.38.1 May 08, 2019
@@ -1306,21 +1306,21 @@ Changes:
 Changes:
 
 - Add Emberic Elm (Dried Danta discontinued)
-- @polkadot/util & @polkadot/api 0.75.1
+- @pezkuwi/util & @pezkuwi/api 0.75.1
 
 
 ## 0.36.1 Mar 29, 2019
 
 Changes:
 
-- Small fixes, latest @polkadot/wasm-* packages
+- Small fixes, latest @pezkuwi/wasm-* packages
 
 
 ## 0.35.1  Mar 29, 2019
 
 Changes:
 
-- @polkadot/util & @polkadot/api 0.75.1
+- @pezkuwi/util & @pezkuwi/api 0.75.1
 
 
 ## 0.34.1 Mar 28, 2019
@@ -1397,7 +1397,7 @@ Add keyring support for sd25519 (schnorrkel)
 
 Changes:
 
-Add `@polkadot/{keyring,util,util-crypto,types}` as peerDependencies for the various packages as used. Thie should allow less churn on this repo with version bumps, although it does add some extra effort onto the users of these libraries. (But the assumption is that they use these anyway)
+Add `@pezkuwi/{keyring,util,util-crypto,types}` as peerDependencies for the various packages as used. Thie should allow less churn on this repo with version bumps, although it does add some extra effort onto the users of these libraries. (But the assumption is that they use these anyway)
 
 
 ## 0.24.1 Dec 19, 2018

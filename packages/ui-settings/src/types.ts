@@ -1,4 +1,4 @@
-// Copyright 2017-2025 @polkadot/ui-settings authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-settings authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 export interface Option {

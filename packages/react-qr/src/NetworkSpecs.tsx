@@ -1,7 +1,7 @@
-// Copyright 2017-2025 @polkadot/react-qr authors & contributors
+// Copyright 2017-2025 @pezkuwi/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { NetworkSpecsStruct } from '@polkadot/ui-settings/types';
+import type { NetworkSpecsStruct } from '@pezkuwi/ui-settings/types';
 
 import React, { useMemo } from 'react';
 

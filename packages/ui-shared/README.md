@@ -1,3 +1,3 @@
-# @polkadot/ui-shared
+# @pezkuwi/ui-shared
 
-Shared logic for various logic. For identicon generation used inside the `@polkadot/{react, reactnative, vue}-identicon` icons.
+Shared logic for various logic. For identicon generation used inside the `@pezkuwi/{react, reactnative, vue}-identicon` icons.

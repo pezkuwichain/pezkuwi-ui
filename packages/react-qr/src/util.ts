@@ -1,8 +1,8 @@
-// Copyright 2017-2025 @polkadot/react-qr authors & contributors
+// Copyright 2017-2025 @pezkuwi/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isString, u8aConcat, u8aToU8a } from '@polkadot/util';
-import { decodeAddress } from '@polkadot/util-crypto';
+import { isString, u8aConcat, u8aToU8a } from '@pezkuwi/util';
+import { decodeAddress } from '@pezkuwi/util-crypto';
 
 import { ADDRESS_PREFIX, CRYPTO_SR25519, FRAME_SIZE, SUBSTRATE_ID } from './constants.js';
 

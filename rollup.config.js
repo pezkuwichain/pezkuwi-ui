@@ -1,24 +1,24 @@
-// Copyright 2017-2025 @polkadot/ui-shared authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import path from 'path';
 
-import { createBundle } from '@polkadot/dev/config/rollup';
+import { createBundle } from '@pezkuwi/dev/config/rollup';
 
 const pkgs = [
-  '@polkadot/react-identicon',
-  '@polkadot/react-qr',
-  '@polkadot/ui-keyring',
-  '@polkadot/ui-settings',
-  '@polkadot/vue-identicon'
+  '@pezkuwi/react-identicon',
+  '@pezkuwi/react-qr',
+  '@pezkuwi/ui-keyring',
+  '@pezkuwi/ui-settings',
+  '@pezkuwi/vue-identicon'
 ];
 
 const external = [
   ...pkgs,
-  '@polkadot/hw-ledger',
-  '@polkadot/keyring',
-  '@polkadot/util',
-  '@polkadot/util-crypto',
+  '@pezkuwi/hw-ledger',
+  '@pezkuwi/keyring',
+  '@pezkuwi/util',
+  '@pezkuwi/util-crypto',
   'react',
   'react-dom',
   'vue',
@@ -34,10 +34,10 @@ const globals = {
 
 const entries = ['ui-shared'].reduce((all, p) => ({
   ...all,
-  [`@polkadot/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
+  [`@pezkuwi/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
 }), {
-  // re-exported in @polkadot/util-crypto, map directly
-  '@polkadot/networks': '@polkadot/util-crypto'
+  // re-exported in @pezkuwi/util-crypto, map directly
+  '@pezkuwi/networks': '@pezkuwi/util-crypto'
 });
 
 const overrides = {};

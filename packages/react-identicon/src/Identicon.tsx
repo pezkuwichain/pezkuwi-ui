@@ -1,15 +1,15 @@
-// Copyright 2017-2025 @polkadot/react-identicon authors & contributors
+// Copyright 2017-2025 @pezkuwi/react-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Prefix } from '@polkadot/util-crypto/address/types';
+import type { Prefix } from '@pezkuwi/util-crypto/address/types';
 import type { IdentityProps as Props, Props as ComponentProps } from './types.js';
 
 import React from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
 
-import { ICON_DEFAULT_HOST, settings } from '@polkadot/ui-settings';
-import { isHex, isU8a, u8aToHex } from '@polkadot/util';
-import { decodeAddress, encodeAddress, ethereumEncode } from '@polkadot/util-crypto';
+import { ICON_DEFAULT_HOST, settings } from '@pezkuwi/ui-settings';
+import { isHex, isU8a, u8aToHex } from '@pezkuwi/util';
+import { decodeAddress, encodeAddress, ethereumEncode } from '@pezkuwi/util-crypto';
 
 import { Beachball, Empty, Ethereum, Jdenticon, Polkadot } from './icons/index.js';
 import { styled } from './styled.js';

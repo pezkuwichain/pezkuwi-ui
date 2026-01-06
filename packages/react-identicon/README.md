@@ -1,15 +1,15 @@
-# @polkadot/react-identicon
+# @pezkuwi/react-identicon
 
 A generic identity icon that can render icons based on the theme, be it Substrate or Polkadot
 
 ## Usage Examples
 
-To install the component, do `yarn add @polkadot/react-identicon`
+To install the component, do `yarn add @pezkuwi/react-identicon`
 
 Inside a React component, you can now render any account with the associated icon -
 
 ```javascript
-import Identicon from '@polkadot/react-identicon';
+import Identicon from '@pezkuwi/react-identicon';
 
 ...
 render () {

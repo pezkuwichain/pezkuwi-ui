@@ -1,4 +1,4 @@
-// Copyright 2018-2025 @polkadot/react-identicon authors & contributors
+// Copyright 2018-2025 @pezkuwi/react-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 // Copyright 2018 Paritytech via paritytech/oo7/polkadot-identicon
@@ -16,12 +16,12 @@
 //   - Move constants to file-level
 //   - Overall it is now just a static component, expecting an address as an input value
 
-import type { Circle } from '@polkadot/ui-shared/icons/types';
+import type { Circle } from '@pezkuwi/ui-shared/icons/types';
 import type { Props } from '../types.js';
 
 import React, { useMemo } from 'react';
 
-import { polkadotIcon } from '@polkadot/ui-shared';
+import { polkadotIcon } from '@pezkuwi/ui-shared';
 
 function renderCircle ({ cx, cy, fill, r }: Circle, key: number): React.ReactNode {
   return (

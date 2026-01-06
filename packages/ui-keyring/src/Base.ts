@@ -1,14 +1,14 @@
-// Copyright 2017-2025 @polkadot/ui-keyring authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { KeyringInstance, KeyringPair } from '@polkadot/keyring/types';
-import type { HexString } from '@polkadot/util/types';
-import type { Prefix } from '@polkadot/util-crypto/address/types';
+import type { KeyringInstance, KeyringPair } from '@pezkuwi/keyring/types';
+import type { HexString } from '@pezkuwi/util/types';
+import type { Prefix } from '@pezkuwi/util-crypto/address/types';
 import type { AddressSubject } from './observable/types.js';
 import type { KeyringOptions, KeyringStore } from './types.js';
 
-import { createTestKeyring } from '@polkadot/keyring';
-import { isBoolean, isNumber, isString } from '@polkadot/util';
+import { createTestKeyring } from '@pezkuwi/keyring';
+import { isBoolean, isNumber, isString } from '@pezkuwi/util';
 
 import { accounts } from './observable/accounts.js';
 import { addresses } from './observable/addresses.js';

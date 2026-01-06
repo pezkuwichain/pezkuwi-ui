@@ -1,7 +1,7 @@
-// Copyright 2018-2025 @polkadot/ui-shared authors & contributors
+// Copyright 2018-2025 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-/// <reference types="@polkadot/dev-test/globals.d.ts" />
+/// <reference types="@pezkuwi/dev-test/globals.d.ts" />
 
 import { polkadotIcon } from './polkadot.js';
 

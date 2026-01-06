@@ -1,29 +1,29 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/ui/issues",
+  "bugs": "https://github.com/pezkuwichain/ui/issues",
   "description": "Renders an SVG picture representing an address",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/polkadot-js/ui/tree/master/packages/reactnative-identicon#readme",
+  "homepage": "https://github.com/pezkuwichain/ui/tree/master/packages/reactnative-identicon#readme",
   "license": "Apache-2.0",
-  "name": "@polkadot/reactnative-identicon",
+  "name": "@pezkuwi/reactnative-identicon",
   "repository": {
     "directory": "packages/reactnative-identicon",
     "type": "git",
-    "url": "https://github.com/polkadot-js/ui.git"
+    "url": "https://github.com/pezkuwichain/ui.git"
   },
   "sideEffects": [
     "./packageDetect.js",
     "./packageDetect.cjs"
   ],
   "type": "module",
-  "version": "3.16.6",
+  "version": "3.16.8",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/ui-shared": "3.16.6",
-    "@polkadot/util": "^14.0.1",
-    "@polkadot/util-crypto": "^14.0.1",
+    "@pezkuwi/ui-shared": "3.16.6",
+    "@pezkuwi/util": "^14.0.5",
+    "@pezkuwi/util-crypto": "^14.0.5",
     "react-native-svg": "^14.1.0",
     "tslib": "^2.8.1"
   },
@@ -31,8 +31,8 @@
     "@types/react-native": "^0.72.8"
   },
   "peerDependencies": {
-    "@polkadot/util": "*",
-    "@polkadot/util-crypto": "*",
+    "@pezkuwi/util": "*",
+    "@pezkuwi/util-crypto": "*",
     "react": "*",
     "react-native": "*"
   }

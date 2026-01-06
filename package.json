@@ -1,20 +1,20 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/ui/issues",
+  "bugs": "https://github.com/pezkuwichain/ui/issues",
   "engines": {
     "node": ">=18.14"
   },
-  "homepage": "https://github.com/polkadot-js/ui#readme",
+  "homepage": "https://github.com/pezkuwichain/ui#readme",
   "license": "Apache-2.0",
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.6.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/polkadot-js/ui.git"
+    "url": "https://github.com/pezkuwichain/ui.git"
   },
   "sideEffects": false,
   "type": "module",
-  "version": "3.16.6",
+  "version": "3.16.8",
   "versions": {
     "git": "3.16.6",
     "npm": "3.16.6"
@@ -23,18 +23,18 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "polkadot-dev-build-ts",
-    "build:release": "polkadot-ci-ghact-build",
-    "build:rollup": "polkadot-exec-rollup --config",
-    "clean": "polkadot-dev-clean-build",
-    "lint": "polkadot-dev-run-lint",
-    "postinstall": "polkadot-dev-yarn-only",
-    "test": "polkadot-dev-run-test --env browser",
-    "test:one": "polkadot-dev-run-test --env browser"
+    "build": "pezkuwi-dev-build-ts",
+    "build:release": "pezkuwi-ci-ghact-build",
+    "build:rollup": "pezkuwi-exec-rollup --config",
+    "clean": "pezkuwi-dev-clean-build",
+    "lint": "pezkuwi-dev-run-lint",
+    "postinstall": "pezkuwi-dev-yarn-only",
+    "test": "pezkuwi-dev-run-test --env browser",
+    "test:one": "pezkuwi-dev-run-test --env browser"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.83.3",
-    "@polkadot/x-bundle": "^14.0.1",
+    "@pezkuwi/dev": "^0.85.2",
+    "@pezkuwi/x-bundle": "^14.0.5",
     "@types/node": "^22.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,4 +1,4 @@
-// Copyright 2017-2025 @polkadot/react-qr authors & contributors
+// Copyright 2017-2025 @pezkuwi/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { BrowserQRCodeReader, type IScannerControls } from '@zxing/browser';
@@ -19,7 +19,7 @@ interface Props {
 const DEFAULT_DELAY = 150;
 
 const DEFAULT_ERROR = (error: Error): void => {
-  console.error('@polkadot/react-qr:Scan', error.message);
+  console.error('@pezkuwi/react-qr:Scan', error.message);
 };
 
 function Scan ({ className = '', delay = DEFAULT_DELAY, onError = DEFAULT_ERROR, onScan, size, style = {} }: Props): React.ReactElement<Props> {

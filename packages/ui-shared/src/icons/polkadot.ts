@@ -1,4 +1,4 @@
-// Copyright 2018-2025 @polkadot/ui-shared authors & contributors
+// Copyright 2018-2025 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 // Copyright 2018 Paritytech via paritytech/oo7/polkadot-identicon
@@ -9,7 +9,7 @@
 
 import type { Circle, Options } from './types.js';
 
-import { blake2AsU8a, decodeAddress } from '@polkadot/util-crypto';
+import { blake2AsU8a, decodeAddress } from '@pezkuwi/util-crypto';
 
 interface Scheme {
   freq: number;

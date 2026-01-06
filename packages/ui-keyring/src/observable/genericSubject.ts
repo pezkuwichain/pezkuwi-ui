@@ -1,13 +1,13 @@
-// Copyright 2017-2025 @polkadot/ui-keyring authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { KeypairType } from '@polkadot/util-crypto/types';
+import type { KeypairType } from '@pezkuwi/util-crypto/types';
 import type { KeyringJson, KeyringStore } from '../types.js';
 import type { AddressSubject, SingleAddress, SubjectInfo } from './types.js';
 
 import { BehaviorSubject } from 'rxjs';
 
-import { objectCopy, objectSpread } from '@polkadot/util';
+import { objectCopy, objectSpread } from '@pezkuwi/util';
 
 import { createOptionItem } from '../options/item.js';
 import { env } from './env.js';

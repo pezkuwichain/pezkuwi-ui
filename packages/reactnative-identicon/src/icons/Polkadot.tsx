@@ -1,14 +1,14 @@
-// Copyright 2018-2025 @polkadot/reactnative-identicon authors & contributors
+// Copyright 2018-2025 @pezkuwi/reactnative-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Circle as CircleType } from '@polkadot/ui-shared/icons/types';
+import type { Circle as CircleType } from '@pezkuwi/ui-shared/icons/types';
 import type { Props } from '../types.js';
 
 import React, { useMemo } from 'react';
 import { View } from 'react-native';
 import { Circle as SvgCircle, Svg } from 'react-native-svg';
 
-import { polkadotIcon } from '@polkadot/ui-shared';
+import { polkadotIcon } from '@pezkuwi/ui-shared';
 
 function renderCircle ({ cx, cy, fill, r }: CircleType, key: number): React.ReactNode {
   return (

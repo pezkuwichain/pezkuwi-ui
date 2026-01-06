@@ -1,10 +1,10 @@
-// Copyright 2017-2025 @polkadot/ui-shared authors & contributors
+// Copyright 2017-2025 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 // Copyright 2016 Dan Finlay
 
-import { isNull } from '@polkadot/util';
-import { encodeAddress, randomAsU8a } from '@polkadot/util-crypto';
+import { isNull } from '@pezkuwi/util';
+import { encodeAddress, randomAsU8a } from '@pezkuwi/util-crypto';
 
 import { beachballIcon } from './index.js';
 

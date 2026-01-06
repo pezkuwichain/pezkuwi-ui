@@ -1,10 +1,10 @@
-# @polkadot/vue-identicon
+# @pezkuwi/vue-identicon
 
 A generic identity icon that can render icons based on an address.
 
 ## Usage Examples
 
-To install the component, do `yarn add @polkadot/vue-identicon` and then use it with `import Identicon from '@polkadot/vue-identicon';`
+To install the component, do `yarn add @pezkuwi/vue-identicon` and then use it with `import Identicon from '@pezkuwi/vue-identicon';`
 
 Inside a Vue component, you can now render any account with the associated icon, with associated props -
 
@@ -26,7 +26,7 @@ Inside a Vue component, you can now render any account with the associated icon,
 </template>
 
 <script>
-  import Identicon from '@polkadot/vue-identicon';
+  import Identicon from '@pezkuwi/vue-identicon';
 
   export default {
     ...

@@ -1,29 +1,29 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/ui/issues",
+  "bugs": "https://github.com/pezkuwichain/ui/issues",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/polkadot-js/ui/tree/master/packages/ui-keyring#readme",
+  "homepage": "https://github.com/pezkuwichain/ui/tree/master/packages/ui-keyring#readme",
   "license": "Apache-2.0",
-  "name": "@polkadot/ui-keyring",
+  "name": "@pezkuwi/ui-keyring",
   "repository": {
     "directory": "packages/ui-keyring",
     "type": "git",
-    "url": "https://github.com/polkadot-js/ui.git"
+    "url": "https://github.com/pezkuwichain/ui.git"
   },
   "sideEffects": [
     "./packageDetect.js",
     "./packageDetect.cjs"
   ],
   "type": "module",
-  "version": "3.16.6",
+  "version": "3.16.8",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/keyring": "^14.0.1",
-    "@polkadot/ui-settings": "3.16.6",
-    "@polkadot/util": "^14.0.1",
-    "@polkadot/util-crypto": "^14.0.1",
+    "@pezkuwi/keyring": "^14.0.5",
+    "@pezkuwi/ui-settings": "3.16.6",
+    "@pezkuwi/util": "^14.0.5",
+    "@pezkuwi/util-crypto": "^14.0.5",
     "mkdirp": "^3.0.1",
     "rxjs": "^7.8.1",
     "store": "^2.0.12",
@@ -34,8 +34,8 @@
     "@types/store": "^2.0.5"
   },
   "peerDependencies": {
-    "@polkadot/keyring": "*",
-    "@polkadot/ui-settings": "*",
-    "@polkadot/util": "*"
+    "@pezkuwi/keyring": "*",
+    "@pezkuwi/ui-settings": "*",
+    "@pezkuwi/util": "*"
   }
 }

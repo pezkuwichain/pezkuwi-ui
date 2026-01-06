@@ -1,15 +1,15 @@
-# @polkadot/reactnative-identicon
+# @pezkuwi/reactnative-identicon
 
 A generic identity icon that can render icons based on an address.
 
 ## Usage Examples
 
-To install the component, do `yarn add @polkadot/reactnative-identicon`
+To install the component, do `yarn add @pezkuwi/reactnative-identicon`
 
 Inside a React component, you can now render any account with the associated icon -
 
 ```javascript
-import Identicon from '@polkadot/reactnative-identicon';
+import Identicon from '@pezkuwi/reactnative-identicon';
 
 ...
 render () {

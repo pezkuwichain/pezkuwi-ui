@@ -1,13 +1,13 @@
-// Copyright 2017-2025 @polkadot/vue-identicon authors & contributors
+// Copyright 2017-2025 @pezkuwi/vue-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import type { VNode } from 'vue';
-import type { Prefix } from '@polkadot/util-crypto/address/types';
+import type { Prefix } from '@pezkuwi/util-crypto/address/types';
 
 import { defineComponent, h } from 'vue';
 
-import { isHex, isU8a, u8aToHex } from '@polkadot/util';
-import { decodeAddress, encodeAddress, isEthereumAddress } from '@polkadot/util-crypto';
+import { isHex, isU8a, u8aToHex } from '@pezkuwi/util';
+import { decodeAddress, encodeAddress, isEthereumAddress } from '@pezkuwi/util-crypto';
 
 import { Beachball, Empty, Jdenticon, Polkadot } from './icons/index.js';
 import { adaptVNodeAttrs } from './util.js';

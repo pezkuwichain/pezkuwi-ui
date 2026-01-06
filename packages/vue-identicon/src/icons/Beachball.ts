@@ -1,11 +1,11 @@
-// Copyright 2017-2025 @polkadot/vue-identicon authors & contributors
+// Copyright 2017-2025 @pezkuwi/vue-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import type { VNode } from 'vue';
 
 import { defineComponent, h } from 'vue';
 
-import { beachballIcon } from '@polkadot/ui-shared';
+import { beachballIcon } from '@pezkuwi/ui-shared';
 
 interface PropsType {
   address: string;

@@ -1,11 +1,11 @@
-// Copyright 2017-2025 @polkadot/react-qr authors & contributors
+// Copyright 2017-2025 @pezkuwi/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@pezkuwi/util/types';
 
 import React, { useCallback } from 'react';
 
-import { decodeAddress } from '@polkadot/util-crypto';
+import { decodeAddress } from '@pezkuwi/util-crypto';
 
 import { ADDRESS_PREFIX, SEED_PREFIX } from './constants.js';
 import { QrScan } from './Scan.js';
@@ -61,7 +61,7 @@ function ScanAddress ({ className, isEthereum, onError, onScan, size, style }: P
         } catch (error) {
           onError && onError(error as Error);
 
-          console.error('@polkadot/react-qr:QrScanAddress', (error as Error).message, data);
+          console.error('@pezkuwi/react-qr:QrScanAddress', (error as Error).message, data);
         }
       }
     },

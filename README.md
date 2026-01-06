@@ -1,4 +1,4 @@
-# @polkadot/ui
+# @pezkuwi/ui
 
 Basic browser and framework agnostic UI components for creating apps using the polkadot{.js} libraries
 
@@ -13,6 +13,6 @@ The following UI components are currently available -
 
 Additionally some shared libraries, that are not dependent on any framework -
 
-- [ui-keyring](packages/ui-keyring/) A browser-specific wrapper around the base [@polkadot/keyring](https://github.com/polkadot-js/common/) library
+- [ui-keyring](packages/ui-keyring/) A browser-specific wrapper around the base [@pezkuwi/keyring](https://github.com/pezkuwichain/common/) library
 - [ui-settings](packages/ui-settings/) A browser local storage wrapper for app settings & configuration
 - [ui-shared](packages/ui-shared) Shared logic that is used across UI components, e.g. for icon generation

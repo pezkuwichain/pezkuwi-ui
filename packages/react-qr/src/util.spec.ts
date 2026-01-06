@@ -1,10 +1,10 @@
-// Copyright 2017-2025 @polkadot/react-qr authors & contributors
+// Copyright 2017-2025 @pezkuwi/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-/// <reference types="@polkadot/dev-test/globals.d.ts" />
+/// <reference types="@pezkuwi/dev-test/globals.d.ts" />
 
-import { u8aConcat, u8aToHex, u8aToString } from '@polkadot/util';
-import { randomAsU8a } from '@polkadot/util-crypto';
+import { u8aConcat, u8aToHex, u8aToString } from '@pezkuwi/util';
+import { randomAsU8a } from '@pezkuwi/util-crypto';
 
 import { createAddressPayload, createFrames, createSignPayload, decodeString, encodeNumber, encodeString } from './util.js';
 

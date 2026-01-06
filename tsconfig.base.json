@@ -1,19 +1,19 @@
 {
-  "extends": "@polkadot/dev/config/tsconfig.json",
+  "extends": "@pezkuwi/dev/config/tsconfig.json",
   "compilerOptions": {
     "composite": true,
     "paths": {
-      "@polkadot/react-identicon": ["react-identicon/src/index.ts"],
-      "@polkadot/react-qr": ["react-qr/src/index.ts"],
-      "@polkadot/reactnative-identicon": ["reactnative-identicon/src/index.ts"],
-      "@polkadot/ui-keyring": ["ui-keyring/src/index.ts"],
-      "@polkadot/ui-settings": ["ui-settings/src/index.ts"],
-      "@polkadot/ui-settings/packageInfo": ["ui-settings/src/packageInfo.ts"],
-      "@polkadot/ui-settings/types": ["ui-settings/src/types.ts"],
-      "@polkadot/ui-shared": ["ui-shared/src/index.ts"],
-      "@polkadot/ui-shared/icons/*": ["ui-shared/src/icons/*.ts"],
-      "@polkadot/ui-shared/packageInfo": ["ui-shared/src/packageInfo.ts"],
-      "@polkadot/vue-identicon": ["vue-identicon/src/index.ts"],
+      "@pezkuwi/react-identicon": ["react-identicon/src/index.ts"],
+      "@pezkuwi/react-qr": ["react-qr/src/index.ts"],
+      "@pezkuwi/reactnative-identicon": ["reactnative-identicon/src/index.ts"],
+      "@pezkuwi/ui-keyring": ["ui-keyring/src/index.ts"],
+      "@pezkuwi/ui-settings": ["ui-settings/src/index.ts"],
+      "@pezkuwi/ui-settings/packageInfo": ["ui-settings/src/packageInfo.ts"],
+      "@pezkuwi/ui-settings/types": ["ui-settings/src/types.ts"],
+      "@pezkuwi/ui-shared": ["ui-shared/src/index.ts"],
+      "@pezkuwi/ui-shared/icons/*": ["ui-shared/src/icons/*.ts"],
+      "@pezkuwi/ui-shared/packageInfo": ["ui-shared/src/packageInfo.ts"],
+      "@pezkuwi/vue-identicon": ["vue-identicon/src/index.ts"],
     }
   }
  }

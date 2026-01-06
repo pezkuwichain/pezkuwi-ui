@@ -1,31 +1,31 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/ui/issues",
+  "bugs": "https://github.com/pezkuwichain/ui/issues",
   "description": "Renders an SVG picture representing an address",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/polkadot-js/ui/tree/master/packages/react-identicon#readme",
+  "homepage": "https://github.com/pezkuwichain/ui/tree/master/packages/react-identicon#readme",
   "license": "Apache-2.0",
-  "name": "@polkadot/react-identicon",
+  "name": "@pezkuwi/react-identicon",
   "repository": {
     "directory": "packages/react-identicon",
     "type": "git",
-    "url": "https://github.com/polkadot-js/ui.git"
+    "url": "https://github.com/pezkuwichain/ui.git"
   },
   "sideEffects": [
     "./packageDetect.js",
     "./packageDetect.cjs"
   ],
   "type": "module",
-  "version": "3.16.6",
+  "version": "3.16.8",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/keyring": "^14.0.1",
-    "@polkadot/ui-settings": "3.16.6",
-    "@polkadot/ui-shared": "3.16.6",
-    "@polkadot/util": "^14.0.1",
-    "@polkadot/util-crypto": "^14.0.1",
+    "@pezkuwi/keyring": "^14.0.5",
+    "@pezkuwi/ui-settings": "3.16.6",
+    "@pezkuwi/ui-shared": "3.16.6",
+    "@pezkuwi/util": "^14.0.5",
+    "@pezkuwi/util-crypto": "^14.0.5",
     "ethereum-blockies-base64": "^1.0.2",
     "jdenticon": "3.2.0",
     "react-copy-to-clipboard": "^5.1.0",
@@ -38,9 +38,9 @@
     "xmlserializer": "^0.6.1"
   },
   "peerDependencies": {
-    "@polkadot/keyring": "*",
-    "@polkadot/util": "*",
-    "@polkadot/util-crypto": "*",
+    "@pezkuwi/keyring": "*",
+    "@pezkuwi/util": "*",
+    "@pezkuwi/util-crypto": "*",
     "react": "*",
     "react-dom": "*",
     "react-is": "*"
