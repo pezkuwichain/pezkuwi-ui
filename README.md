@@ -1,18 +1,80 @@
 # @pezkuwi/ui
 
-Basic browser and framework agnostic UI components for creating apps using the polkadot{.js} libraries
+Basic browser and framework agnostic UI components for creating apps using the PezkuwiChain libraries.
 
-## overview
+**Developed by Dijital Kurdistan Tech Institute**
 
-The following UI components are currently available -
+## Overview
 
-- [react-identicon](packages/react-identicon/) React identity icon generator with address as input
-- [reactnative-identicon](packages/reactnative-identicon/) React Native identity icon generator with address as input
-- [vue-identicon](packages/vue-identicon/) Vue identity icon generator with address as input
-- [react-qr](packages/react-qr/) QR code generator/reader for [uos](https://github.com/maciejhirsz/uos) (Substrate/Polkadot only)
+This package provides UI components for building applications on PezkuwiChain.
 
-Additionally some shared libraries, that are not dependent on any framework -
+## Packages
 
-- [ui-keyring](packages/ui-keyring/) A browser-specific wrapper around the base [@pezkuwi/keyring](https://github.com/pezkuwichain/common/) library
-- [ui-settings](packages/ui-settings/) A browser local storage wrapper for app settings & configuration
-- [ui-shared](packages/ui-shared) Shared logic that is used across UI components, e.g. for icon generation
+### UI Components
+
+- [react-identicon](packages/react-identicon/) - React identity icon generator with address as input
+- [reactnative-identicon](packages/reactnative-identicon/) - React Native identity icon generator with address as input
+- [vue-identicon](packages/vue-identicon/) - Vue identity icon generator with address as input
+- [react-qr](packages/react-qr/) - QR code generator/reader for PezkuwiChain
+
+### Shared Libraries
+
+- [ui-keyring](packages/ui-keyring/) - A browser-specific wrapper around [@pezkuwi/keyring](https://github.com/pezkuwichain/pezkuwi-common/)
+- [ui-settings](packages/ui-settings/) - A browser local storage wrapper for app settings
+- [ui-shared](packages/ui-shared/) - Shared logic used across UI components (e.g., icon generation)
+
+## Installation
+
+```bash
+# Using npm
+npm install @pezkuwi/react-identicon
+
+# Using yarn
+yarn add @pezkuwi/react-identicon
+```
+
+## Usage
+
+```javascript
+import Identicon from '@pezkuwi/react-identicon';
+
+function App() {
+  return (
+    <Identicon
+      value="5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+      size={64}
+      theme="polkadot"
+    />
+  );
+}
+```
+
+## Development
+
+### Prerequisites
+
+- Node.js >= 18.14
+- Yarn 4.x (via corepack)
+
+### Building
+
+```bash
+corepack enable
+yarn install
+yarn build
+```
+
+## Links
+
+- Website: https://pezkuwichain.io
+- Documentation: https://docs.pezkuwichain.io
+- GitHub: https://github.com/pezkuwichain
+- API Docs: https://js.pezkuwichain.app
+
+## License
+
+Apache-2.0
+
+## Author
+
+Dijital Kurdistan Tech Institute
