@@ -24,28 +24,24 @@ export const UIMODES: Option[] = [
   }
 ];
 
-export const UITHEME_DEFAULT = isPolkadot
-  ? 'polkadot'
-  : 'substrate';
+export const UITHEME_DEFAULT = 'light';
 
 export const UITHEMES: Option[] = [
   {
-    info: 'polkadot',
-    text: 'Polkadot',
-    value: 'polkadot'
+    info: 'light',
+    text: 'Light theme',
+    value: 'light'
   },
   {
-    info: 'substrate',
-    text: 'Substrate',
-    value: 'substrate'
+    info: 'dark',
+    text: 'Dark theme',
+    value: 'dark'
   }
 ];
 
 export const ICON_DEFAULT = 'default';
 
-export const ICON_DEFAULT_HOST = isPolkadot
-  ? 'polkadot'
-  : 'substrate';
+export const ICON_DEFAULT_HOST = 'pezkuwi';
 
 export const ICONS: Option[] = [
   {
@@ -54,14 +50,14 @@ export const ICONS: Option[] = [
     value: 'default'
   },
   {
-    info: 'polkadot',
-    text: 'Polkadot',
-    value: 'polkadot'
+    info: 'pezkuwi',
+    text: 'Pezkuwi',
+    value: 'pezkuwi'
   },
   {
-    info: 'substrate',
-    text: 'Substrate',
-    value: 'substrate'
+    info: 'bizinikiwi',
+    text: 'Bizinikiwi',
+    value: 'bizinikiwi'
   },
   {
     info: 'beachball',
