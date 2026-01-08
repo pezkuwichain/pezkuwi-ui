@@ -9,7 +9,7 @@ import { defineComponent, h } from 'vue';
 import { isHex, isU8a, u8aToHex } from '@pezkuwi/util';
 import { decodeAddress, encodeAddress, isEthereumAddress } from '@pezkuwi/util-crypto';
 
-import { Beachball, Empty, Jdenticon, Polkadot } from './icons/index.js';
+import { Beachball, Empty, Jdenticon, Pezkuwi } from './icons/index.js';
 import { adaptVNodeAttrs } from './util.js';
 
 interface Account {
@@ -22,7 +22,7 @@ interface Data {
   iconSize: number;
   isAlternativeIcon: boolean;
   publicKey: string;
-  type: 'beachball' | 'empty' | 'jdenticon' | 'polkadot' | 'substrate';
+  type: 'beachball' | 'empty' | 'jdenticon' | 'pezkuwi' | 'bizinikiwi';
 }
 
 const DEFAULT_SIZE = 64;
@@ -53,7 +53,7 @@ export function encodeAccount (value: string | Uint8Array, prefix?: Prefix): Acc
  * @description The main Identicon component, taking a number of properties
  * @example
  * ```html
- * <Identicon :size="128" :theme="polkadot" :value="..." />
+ * <Identicon :size="128" :theme="pezkuwi" :value="..." />
  * ```
  */
 export const Identicon = defineComponent({
@@ -61,7 +61,7 @@ export const Identicon = defineComponent({
     Beachball,
     Empty,
     Jdenticon,
-    Polkadot
+    Pezkuwi
   },
   created: function (): void {
     this.createData();
@@ -110,16 +110,24 @@ export const Identicon = defineComponent({
           }
         )
       }, []);
-    } else if (type === 'substrate') {
-      throw new Error('substrate type is not supported');
+    } else if (type === 'bizinikiwi') {
+      return h(Jdenticon, {
+        ...adaptVNodeAttrs(
+          {
+            key: address,
+            publicKey,
+            size: iconSize
+          }
+        )
+      }, []);
     }
 
     const cmp = type.charAt(0).toUpperCase() + type.slice(1);
 
-    if (['Beachball', 'Polkadot'].includes(cmp)) {
+    if (['Beachball', 'Pezkuwi'].includes(cmp)) {
       const component = cmp === 'Beachball'
         ? Beachball
-        : Polkadot;
+        : Pezkuwi;
 
       return h(component, {
         ...adaptVNodeAttrs({

@@ -27,4 +27,4 @@ export interface IdentityProps extends BaseProps {
   value?: string | Uint8Array | null;
 }
 
-export type IconTheme = 'beachball' | 'empty' | 'ethereum' | 'jdenticon' | 'polkadot' | 'substrate';
+export type IconTheme = 'beachball' | 'bizinikiwi' | 'empty' | 'ethereum' | 'jdenticon' | 'pezkuwi';

@@ -8,7 +8,7 @@ import React, { useMemo } from 'react';
 import { View } from 'react-native';
 import { Circle as SvgCircle, Svg } from 'react-native-svg';
 
-import { polkadotIcon } from '@pezkuwi/ui-shared';
+import { pezkuwiIcon } from '@pezkuwi/ui-shared';
 
 function renderCircle ({ cx, cy, fill, r }: CircleType, key: number): React.ReactNode {
   return (
@@ -24,7 +24,7 @@ function renderCircle ({ cx, cy, fill, r }: CircleType, key: number): React.Reac
 
 export default function Identicon ({ address, isAlternative = false, size }: Props): React.ReactElement<Props> {
   const circles = useMemo(
-    () => polkadotIcon(address, { isAlternative }),
+    () => pezkuwiIcon(address, { isAlternative }),
     [address, isAlternative]
   );
 

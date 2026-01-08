@@ -5,7 +5,7 @@ import type { VNode } from 'vue';
 
 import { defineComponent, h } from 'vue';
 
-import { polkadotIcon } from '@pezkuwi/ui-shared';
+import { pezkuwiIcon } from '@pezkuwi/ui-shared';
 
 import { adaptVNodeAttrs } from '../util.js';
 
@@ -16,14 +16,14 @@ interface propsType {
 }
 
 /**
- * @name Polkadot
- * @description The Polkadot default identicon
+ * @name Pezkuwi
+ * @description The Pezkuwi default identicon
  */
-export const Polkadot = defineComponent({
+export const Pezkuwi = defineComponent({
   props: ['address', 'isAlternative', 'size'],
   render (): VNode {
     const { address, isAlternative, size } = this.$props as propsType;
-    const circles = polkadotIcon(address, { isAlternative }).map(({ cx, cy, fill, r }) =>
+    const circles = pezkuwiIcon(address, { isAlternative }).map(({ cx, cy, fill, r }) =>
       h('circle', { ...adaptVNodeAttrs({ cx, cy, fill, r }) }, [])
     );
 

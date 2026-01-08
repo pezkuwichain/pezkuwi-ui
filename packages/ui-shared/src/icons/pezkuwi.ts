@@ -1,11 +1,8 @@
 // Copyright 2018-2025 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-// Copyright 2018 Paritytech via paritytech/oo7/polkadot-identicon
-
-// This has been converted from the original version that can be found at
-//
-// https://github.com/paritytech/oo7/blob/251ba2b7c45503b68eab4320c270b5afa9bccb60/packages/polkadot-identicon/src/index.jsx
+// Originally from: https://github.com/paritytech/oo7/tree/master/packages/polkadot-identicon
+// Copyright 2018 Paritytech - Adapted for PezkuwiChain ecosystem
 
 import type { Circle, Options } from './types.js';
 
@@ -134,7 +131,7 @@ function getColors (address: string): string[] {
 /**
  * @description Generates an array of the circles that make up an identicon
  */
-export function polkadotIcon (address: string, { isAlternative }: Options): Circle[] {
+export function pezkuwiIcon (address: string, { isAlternative }: Options): Circle[] {
   const xy = getCircleXY(isAlternative);
   let colors: string[];
 

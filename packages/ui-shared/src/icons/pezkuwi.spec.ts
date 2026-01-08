@@ -3,12 +3,12 @@
 
 /// <reference types="@pezkuwi/dev-test/globals.d.ts" />
 
-import { polkadotIcon } from './polkadot.js';
+import { pezkuwiIcon } from './pezkuwi.js';
 
-describe('polkadotIcon', (): void => {
+describe('pezkuwiIcon', (): void => {
   it('generates the correct points from known', (): void => {
     expect(
-      polkadotIcon('5Dqvi1p4C7EhPPFKCixpF3QiaJEaDwWrR9gfWR5eUsfC39TX', { isAlternative: false })
+      pezkuwiIcon('5Dqvi1p4C7EhPPFKCixpF3QiaJEaDwWrR9gfWR5eUsfC39TX', { isAlternative: false })
     ).toEqual([
       { cx: 32, cy: 32, fill: '#eee', r: 32 },
       { cx: 32, cy: 8, fill: 'hsl(196, 65%, 53%)', r: 5 },

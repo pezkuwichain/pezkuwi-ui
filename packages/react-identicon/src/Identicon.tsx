@@ -11,7 +11,7 @@ import { ICON_DEFAULT_HOST, settings } from '@pezkuwi/ui-settings';
 import { isHex, isU8a, u8aToHex } from '@pezkuwi/util';
 import { decodeAddress, encodeAddress, ethereumEncode } from '@pezkuwi/util-crypto';
 
-import { Beachball, Empty, Ethereum, Jdenticon, Polkadot } from './icons/index.js';
+import { Beachball, Empty, Ethereum, Jdenticon, Pezkuwi } from './icons/index.js';
 import { styled } from './styled.js';
 
 const Fallback = Beachball;
@@ -24,11 +24,11 @@ interface State {
 const DEFAULT_SIZE = 64;
 const Components: Record<string, React.ComponentType<ComponentProps>> = {
   beachball: Beachball,
+  bizinikiwi: Jdenticon,
   empty: Empty,
   ethereum: Ethereum,
   jdenticon: Jdenticon,
-  polkadot: Polkadot,
-  substrate: Jdenticon
+  pezkuwi: Pezkuwi
 };
 
 class BaseIcon extends React.PureComponent<Props, State> {

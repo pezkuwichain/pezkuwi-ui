@@ -2,4 +2,4 @@
 // SPDX-License-Identifier: Apache-2.0
 
 export { default as Empty } from './Empty.js';
-export { default as Polkadot } from './Polkadot.js';
+export { default as Pezkuwi } from './Pezkuwi.js';

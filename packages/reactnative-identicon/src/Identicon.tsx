@@ -9,14 +9,14 @@ import React from 'react';
 import { isHex, isU8a, u8aToHex } from '@pezkuwi/util';
 import { decodeAddress, encodeAddress } from '@pezkuwi/util-crypto';
 
-import { Empty, Polkadot } from './icons/index.js';
+import { Empty, Pezkuwi } from './icons/index.js';
 
-const Fallback = Polkadot;
+const Fallback = Pezkuwi;
 
 interface Props {
   prefix?: Prefix;
   size?: number;
-  theme?: 'polkadot';
+  theme?: 'pezkuwi';
   value?: string | Uint8Array | null;
 }
 
@@ -26,10 +26,10 @@ interface State {
 }
 
 const DEFAULT_SIZE = 64;
-const DEFAULT_THEME = 'polkadot';
+const DEFAULT_THEME = 'pezkuwi';
 
 const Components: Record<string, React.ComponentType<ComponentProps>> = {
-  polkadot: Polkadot
+  pezkuwi: Pezkuwi
 };
 
 export default class IdentityIcon extends React.PureComponent<Props, State> {

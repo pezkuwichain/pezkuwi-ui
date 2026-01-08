@@ -2,4 +2,4 @@
 // SPDX-License-Identifier: Apache-2.0
 
 export { beachballIcon } from './beachball/index.js';
-export { polkadotIcon } from './polkadot.js';
+export { pezkuwiIcon } from './pezkuwi.js';

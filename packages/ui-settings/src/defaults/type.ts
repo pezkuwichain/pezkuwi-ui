@@ -4,5 +4,5 @@
 // matches https://pezkuwichain.io & https://*.pezkuwichain.io
 export const isPezkuwi = typeof window !== 'undefined' && window.location.host.includes('pezkuwi');
 
-// Backward compatibility alias
+// Alias for compatibility with code using old variable name
 export const isPolkadot = isPezkuwi;
