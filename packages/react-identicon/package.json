@@ -18,12 +18,12 @@
     "./packageDetect.cjs"
   ],
   "type": "module",
-  "version": "3.17.1",
+  "version": "3.17.2",
   "main": "index.js",
   "dependencies": {
     "@pezkuwi/keyring": "^14.0.5",
-    "@pezkuwi/ui-settings": "3.16.6",
-    "@pezkuwi/ui-shared": "3.16.6",
+    "@pezkuwi/ui-settings": "3.17.2",
+    "@pezkuwi/ui-shared": "3.17.2",
     "@pezkuwi/util": "^14.0.5",
     "@pezkuwi/util-crypto": "^14.0.5",
     "ethereum-blockies-base64": "^1.0.2",
