@@ -1,16 +1,16 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/pezkuwichain/ui/issues",
+  "bugs": "https://git.pezkuwichain.io/pezkuwichain/ui/issues",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/pezkuwichain/ui/tree/master/packages/ui-keyring#readme",
+  "homepage": "https://git.pezkuwichain.io/pezkuwichain/ui/tree/master/packages/ui-keyring#readme",
   "license": "Apache-2.0",
   "name": "@pezkuwi/ui-keyring",
   "repository": {
     "directory": "packages/ui-keyring",
     "type": "git",
-    "url": "https://github.com/pezkuwichain/ui.git"
+    "url": "https://git.pezkuwichain.io/pezkuwichain/ui.git"
   },
   "sideEffects": [
     "./packageDetect.js",

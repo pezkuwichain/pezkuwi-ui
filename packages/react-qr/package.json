@@ -1,17 +1,17 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/pezkuwichain/ui/issues",
+  "bugs": "https://git.pezkuwichain.io/pezkuwichain/ui/issues",
   "description": "Generates and reads QR codes",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/pezkuwichain/ui/tree/master/packages/react-qr#readme",
+  "homepage": "https://git.pezkuwichain.io/pezkuwichain/ui/tree/master/packages/react-qr#readme",
   "license": "Apache-2.0",
   "name": "@pezkuwi/react-qr",
   "repository": {
     "directory": "packages/react-qr",
     "type": "git",
-    "url": "https://github.com/pezkuwichain/ui.git"
+    "url": "https://git.pezkuwichain.io/pezkuwichain/ui.git"
   },
   "sideEffects": [
     "./packageDetect.js",

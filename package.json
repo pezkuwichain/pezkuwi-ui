@@ -1,16 +1,16 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/pezkuwichain/ui/issues",
+  "bugs": "https://git.pezkuwichain.io/pezkuwichain/ui/issues",
   "engines": {
     "node": ">=18.14"
   },
-  "homepage": "https://github.com/pezkuwichain/ui#readme",
+  "homepage": "https://git.pezkuwichain.io/pezkuwichain/ui#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@4.6.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/pezkuwichain/ui.git"
+    "url": "https://git.pezkuwichain.io/pezkuwichain/ui.git"
   },
   "sideEffects": false,
   "type": "module",
@@ -33,7 +33,7 @@
     "test:one": "pezkuwi-dev-run-test --env browser"
   },
   "devDependencies": {
-    "@pezkuwi/dev": "^0.85.2",
+    "@pezkuwi/dev": "^0.85.7",
     "@pezkuwi/x-bundle": "^14.0.5",
     "@types/node": "^22.10.5",
     "react": "^18.2.0",
