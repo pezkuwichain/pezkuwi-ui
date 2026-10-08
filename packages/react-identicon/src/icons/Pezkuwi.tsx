@@ -1,4 +1,4 @@
-// Copyright 2018-2025 @pezkuwi/react-identicon authors & contributors
+// Copyright 2018-2026 @pezkuwi/react-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 // Originally from: https://github.com/paritytech/oo7/tree/master/packages/polkadot-identicon
