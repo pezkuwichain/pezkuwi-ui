@@ -14,7 +14,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "3.17.2",
+  "version": "3.17.3",
   "versions": {
     "git": "3.16.6",
     "npm": "3.16.6"
@@ -33,8 +33,8 @@
     "test:one": "pezkuwi-dev-run-test --env browser"
   },
   "devDependencies": {
-    "@pezkuwi/dev": "^0.85.7",
-    "@pezkuwi/x-bundle": "^14.0.5",
+    "@pezkuwi/dev": "^0.85.12",
+    "@pezkuwi/x-bundle": "^14.0.26",
     "@types/node": "^22.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
