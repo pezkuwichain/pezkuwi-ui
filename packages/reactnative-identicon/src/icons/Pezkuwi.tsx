@@ -1,4 +1,4 @@
-// Copyright 2018-2025 @pezkuwi/reactnative-identicon authors & contributors
+// Copyright 2018-2026 @pezkuwi/reactnative-identicon authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Circle as CircleType } from '@pezkuwi/ui-shared/icons/types';
