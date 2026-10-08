@@ -1,4 +1,4 @@
-// Copyright 2017-2025 @pezkuwi/ui-shared authors & contributors
+// Copyright 2017-2026 @pezkuwi/ui-shared authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 /// <reference types="@pezkuwi/dev-test/globals.d.ts" />
@@ -6,13 +6,23 @@
 import { container } from './container.js';
 
 describe('container', (): void => {
+  // Read through the public CSSStyleDeclaration accessors; the private _values
+  // store these tests used to read is laid out differently by each cssstyle release.
+  const styles = ({ style }: HTMLElement) => ({
+    background: style.background,
+    borderRadius: style.borderRadius,
+    display: style.display,
+    height: style.height,
+    margin: style.margin,
+    overflow: style.overflow,
+    padding: style.padding,
+    width: style.width
+  });
+
   it('applies default styles', (): void => {
-    expect(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any,@typescript-eslint/no-unsafe-member-access
-      (container(100).style as any)._values
-    ).toMatchObject({
+    expect(styles(container(100))).toEqual({
       background: 'white',
-      'border-radius': '50px',
+      borderRadius: '50px',
       display: 'inline-block',
       height: '100px',
       margin: '0px',
@@ -23,12 +33,9 @@ describe('container', (): void => {
   });
 
   it('overrides with supplied styles', (): void => {
-    expect(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any,@typescript-eslint/no-unsafe-member-access
-      (container(50, 'black', '', { display: 'block' }).style as any)._values
-    ).toMatchObject({
+    expect(styles(container(50, 'black', '', { display: 'block' }))).toEqual({
       background: 'black',
-      'border-radius': '25px',
+      borderRadius: '25px',
       display: 'block',
       height: '50px',
       margin: '0px',
