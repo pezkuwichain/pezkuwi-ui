@@ -1,7 +1,7 @@
 // Copyright 2017-2026 @pezkuwi/ui-settings authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Endpoint, EndpointType, Option, SettingsStruct } from './types.js';
+import type { Endpoint, Option, SettingsStruct } from './types.js';
 
 import { EventEmitter } from 'eventemitter3';
 import store from 'store';
@@ -60,7 +60,7 @@ export class Settings implements SettingsStruct {
 
     // will become deprecated for supporting substrate connect light clients. apiType structure should be used instead
     this.#apiUrl = (typeof settings.apiUrl === 'string' && settings.apiUrl) || (hasProcess && process.env?.['WS_URL']) || (ENDPOINT_DEFAULT.value as string);
-    this.#apiType = { param: this.#apiUrl, type: 'json-rpc' as EndpointType };
+    this.#apiType = { param: this.#apiUrl, type: 'json-rpc' };
     this.#camera = withDefault(CAMERA, settings.camera, CAMERA_DEFAULT);
     this.#ledgerApp = withDefault(LEDGER_APP, settings.ledgerApp, LEDGER_APP_DEFAULT);
     this.#ledgerConn = withDefault(LEDGER_CONN, settings.ledgerConn, LEDGER_CONN_DEFAULT);

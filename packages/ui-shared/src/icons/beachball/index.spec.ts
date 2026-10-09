@@ -11,7 +11,7 @@ describe('identicon', (): void => {
   it('generates a basic [0,..,0] identicon', (): void => {
     expect(
       xmlserializer.serializeToString(
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument,@typescript-eslint/no-explicit-any
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         beachballIcon(new Uint8Array(32), { isAlternative: false, size: 256 }) as any
       )
     ).toEqual(
@@ -24,7 +24,7 @@ describe('identicon', (): void => {
   it('allows overrides', (): void => {
     expect(
       xmlserializer.serializeToString(
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument,@typescript-eslint/no-explicit-any
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         beachballIcon(new Uint8Array(32), { isAlternative: false, size: 100 }, 'testClass', { display: 'block' }) as any
       )
     ).toEqual(

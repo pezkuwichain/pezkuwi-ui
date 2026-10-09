@@ -8,7 +8,8 @@
     "noEmit": true
   },
   "include": [
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
   ],
   "references": [
     { "path": "../react-qr/tsconfig.build.json" }

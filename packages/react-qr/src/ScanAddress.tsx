@@ -59,7 +59,7 @@ function ScanAddress ({ className, isEthereum, onError, onScan, size, style }: P
 
           onScan({ content, genesisHash: genesisHash as HexString, isAddress, name: name?.length ? name.join(':') : undefined });
         } catch (error) {
-          onError && onError(error as Error);
+          onError?.(error as Error);
 
           console.error('@pezkuwi/react-qr:QrScanAddress', (error as Error).message, data);
         }

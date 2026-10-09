@@ -33,7 +33,7 @@ function resolvePublicKey (value: string | Uint8Array, prefix?: Prefix): string 
   }
 
   return isU8a(value) || isHex(value)
-    ? encodeAddress(value as string, prefix)
+    ? encodeAddress(value, prefix)
     : value;
 }
 

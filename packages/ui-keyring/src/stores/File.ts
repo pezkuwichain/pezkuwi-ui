@@ -64,12 +64,12 @@ export class FileStore implements KeyringStore {
 
   public remove (key: string, fn?: () => void): void {
     fs.unlinkSync(this._getPath(key));
-    fn && fn();
+    fn?.();
   }
 
   public set (key: string, value: KeyringJson, fn?: () => void): void {
     fs.writeFileSync(this._getPath(key), Buffer.from(JSON.stringify(value), 'utf-8'));
-    fn && fn();
+    fn?.();
   }
 
   private _getPath (key: string): string {
