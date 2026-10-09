@@ -11,9 +11,7 @@ export interface KeyringSectionOption {
 
 export type KeyringSectionOptions = KeyringSectionOption[];
 
-export type KeyringOptions = {
-  [type in KeyringItemType | 'all' | 'allPlus' | 'recent' | 'testing']: KeyringSectionOptions
-};
+export type KeyringOptions = Record<KeyringItemType | 'all' | 'allPlus' | 'recent' | 'testing', KeyringSectionOptions>;
 
 export type KeyringOption$Type = keyof KeyringOptions;
 

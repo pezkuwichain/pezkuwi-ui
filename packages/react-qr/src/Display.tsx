@@ -1,9 +1,8 @@
 // Copyright 2017-2026 @pezkuwi/react-qr authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 
-import { objectSpread } from '@pezkuwi/util';
 import { xxhashAsHex } from '@pezkuwi/util-crypto';
 
 import { qrcode } from './qrcode.js';
@@ -19,16 +18,11 @@ interface Props {
   value: Uint8Array;
 }
 
-interface FrameState {
-  frames: Uint8Array[];
+interface Shown {
   frameIdx: number;
-  image: string | null;
-  valueHash: string | null;
-}
-
-interface TimerState {
-  timerDelay: number;
-  timerId: ReturnType<typeof setTimeout> | null;
+  frames: Uint8Array[];
+  skipEncoding: boolean;
+  valueHash: string;
 }
 
 const DEFAULT_FRAME_DELAY = 2750;
@@ -45,75 +39,78 @@ function getDataUrl (value: Uint8Array): string {
   return qr.createDataURL(16, 0);
 }
 
-function Display ({ className = '', size, skipEncoding, style = {}, timerDelay = DEFAULT_FRAME_DELAY, value }: Props): React.ReactElement<Props> | null {
-  const [{ image }, setFrameState] = useState<FrameState>({ frameIdx: 0, frames: [], image: null, valueHash: null });
-  const timerRef = useRef<TimerState>({ timerDelay, timerId: null });
+function encode (value: Uint8Array, skipEncoding: boolean, valueHash: string): Shown {
+  return {
+    frameIdx: 0,
+    frames: skipEncoding
+      ? [value]
+      : createFrames(value),
+    skipEncoding,
+    valueHash
+  };
+}
+
+function Display ({ className = '', size, skipEncoding = false, style = {}, timerDelay = DEFAULT_FRAME_DELAY, value }: Props): React.ReactElement<Props> | null {
+  // The frames follow the content of value (by hash), not the identity of the
+  // array, so a new array with the same bytes does not restart the display.
+  const valueHash = useMemo(() => xxhashAsHex(value), [value]);
+  const [shown, setShown] = useState<Shown>(() => encode(value, skipEncoding, valueHash));
+
+  // A new value (or encoding) starts again at its first frame. Adjusting state
+  // while rendering, as React documents for state that follows props, rather
+  // than in an effect, which renders the stale frame once more first.
+  if (shown.valueHash !== valueHash || shown.skipEncoding !== skipEncoding) {
+    setShown(encode(value, skipEncoding, valueHash));
+  }
 
   const containerStyle = useMemo(
     () => createImgSize(size),
     [size]
   );
 
-  // run on initial load to setup the global timer and provide and unsubscribe
-  useEffect((): () => void => {
-    const nextFrame = () => setFrameState((state): FrameState => {
-      // when we have a single frame, we only ever fire once
-      if (state.frames.length <= 1) {
-        return state;
-      }
+  // Frames are encoded on demand, not up front: for a large payload that
+  // keeps the first frame quick.
+  const image = useMemo(
+    () => getDataUrl(shown.frames[shown.frameIdx]),
+    [shown]
+  );
 
-      let frameIdx = state.frameIdx + 1;
+  // Step through the frames of the current value. Each full cycle slows the
+  // display a little. A single frame needs no timer; a new set of frames gets
+  // a new one, so the display animates whenever the value has several frames.
+  useEffect((): (() => void) | undefined => {
+    const frames = shown.frames;
 
-      // when we overflow, skip to the first and slightly increase the delay between frames
-      if (frameIdx === state.frames.length) {
+    if (frames.length <= 1) {
+      return undefined;
+    }
+
+    let frameIdx = 0;
+    let delay = timerDelay;
+    let timerId: ReturnType<typeof setTimeout>;
+
+    const nextFrame = (): void => {
+      frameIdx = frameIdx + 1;
+
+      if (frameIdx === frames.length) {
         frameIdx = 0;
-        timerRef.current.timerDelay = timerRef.current.timerDelay + TIMER_INC;
+        delay = delay + TIMER_INC;
       }
 
-      // only encode the frames on demand, not above as part of the
-      // state derivation - in the case of large payloads, this should
-      // be slightly more responsive on initial load
-      const newState = objectSpread<FrameState>({}, state, {
-        frameIdx,
-        image: getDataUrl(state.frames[frameIdx])
-      });
+      setShown((state) =>
+        state.frames === frames
+          ? { ...state, frameIdx }
+          : state
+      );
+      timerId = setTimeout(nextFrame, delay);
+    };
 
-      // set the new timer last
-      timerRef.current.timerId = setTimeout(nextFrame, timerRef.current.timerDelay);
-
-      return newState;
-    });
-
-    timerRef.current.timerId = setTimeout(nextFrame, timerRef.current.timerDelay);
+    timerId = setTimeout(nextFrame, delay);
 
     return (): void => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      timerRef.current.timerId && clearTimeout(timerRef.current.timerId);
+      clearTimeout(timerId);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect((): void => {
-    setFrameState((state): FrameState => {
-      const valueHash = xxhashAsHex(value);
-
-      if (valueHash === state.valueHash) {
-        return state;
-      }
-
-      const frames: Uint8Array[] = skipEncoding
-        ? [value]
-        : createFrames(value);
-
-      // encode on demand
-      return {
-        frameIdx: 0,
-        frames,
-        image: getDataUrl(frames[0]),
-        valueHash
-      };
-    });
-  }, [skipEncoding, value]);
+  }, [shown.frames, timerDelay]);
 
   if (!image) {
     return null;

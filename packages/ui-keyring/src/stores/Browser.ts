@@ -18,11 +18,11 @@ export class BrowserStore implements KeyringStore {
 
   public remove (key: string, fn?: () => void): void {
     store.remove(key);
-    fn && fn();
+    fn?.();
   }
 
   public set (key: string, value: KeyringJson, fn?: () => void): void {
     store.set(key, value);
-    fn && fn();
+    fn?.();
   }
 }
