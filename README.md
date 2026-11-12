@@ -69,7 +69,7 @@ yarn build
 - Website: https://pezkuwichain.io
 - Documentation: https://docs.pezkuwichain.io
 - GitHub: https://github.com/pezkuwichain
-- API Docs: https://js.pezkuwichain.app
+- API Docs: https://developers.pezkuwichain.io
 
 ## License
 
